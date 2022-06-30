@@ -1,2 +1,0 @@
-# qiita_code
-Qiitaにあげた記事のコードが書かれたipynbファイルなど
