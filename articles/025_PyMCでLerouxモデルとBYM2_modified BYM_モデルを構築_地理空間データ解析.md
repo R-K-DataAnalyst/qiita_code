@@ -1,6 +1,8 @@
 # はじめに
 最近、空間統計のお勉強をしているので、また空間統計モデルのお話をする。  
 以前[「衛星データでつくばみらい市の土壌分類をしてみた（地理空間データ解析）」](https://qiita.com/chicken_data_analyst/items/886d35561a4f23653dc4)という記事で、条件付き自己回帰モデル（Conditional Auto-Regressive model;CAR model）の1つ、ICAR（Intrinsic CAR）モデルについて書いたが、CARモデルには他にも種類があってICARモデルの欠点が修正されていたりする。今回はその中でもLerouxモデルとBYM2モデルを構築して、またつくばみらい市の土壌分類を実施。  
+土壌分類は以下のような感じのデータ。（図：NDVIと土壌クラスの画像）
+![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/542929/77ce0d5e-a4c8-392e-67ef-37a24e8cbd44.png)
 
 過去の空間統計に関する記事は以下。 
 
